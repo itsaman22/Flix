@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    color:white;
+    background-color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+.logo{
+    height: 70px;
+}
+.nav{
+    position: fixed;
+    list-style: none;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color:black;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav ul li{
+    margin: 0 13px;
+    list-style: none;
+
+}
+.nav ul li a{
+   color: white;
+}
+.nav ul li a:hover{
+    color: #E50914;
+    font-size: large;
+ }
+.box2{
+    margin-left: auto;
+    justify-content: end;
+    align-items:center ;
+    height: 70px;
+}
+#profile{
+    margin-top: 5px;
+    height: 50px;
+}
+.box2 ul i{
+    color: white;
+}
+.box2 ul li:hover{
+    font-size: larger;
+    cursor: pointer;
+}
+
+.mainhead{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.netflixori{
+    font-style: ;
+    font-size: 1.2rem;
+}
+.netflixori span{
+    font-weight:lighter;
+    font-size: 1.2rem;
+}
+.mainhead p1{
+    font-size: 4.7rem;
+}
+.mainhead p2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+.subpara{
+    display: flex;
+    height: 50px;
+
+}
+#beforeplay ul{
+    list-style: none;
+    display: flex;
+}
+#beforeplay ul li{
+    margin: 0 13px;
+    display: flex;
+}
+#beforeplay ul li a{
+    color: white;
+}
+.leftmain button{
+    margin-top: 30px;
+    height: 40px;
+    width: 90px;
+    text-align:center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color:white;
+    color:black;
+}
+.leftmain button:hover{
+    cursor: pointer;
+    width: 95px;
+    height: 45px;
+}
+.image{
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.image img{
+
+    height: 500px;
+    margin-right:auto;
+}
+.categories{
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.comedy{
+    list-style: none;
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+}
+.comedy  li img{
+    margin: 0 10px;
+    height: 250px;
+    border-radius: 5px;
+}
+.Newreleases{
+    list-style: none;
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+}
+.Newreleases li img{
+    margin: 0 10px;
+    height: 250px;
+    border-radius: 5px;
+}
+.movies{
+    list-style: none;
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+}
+.movies li img{
+    margin: 0 10px;
+    height: 250px;
+    border-radius: 5px;
+}
+.categories ul li img:hover{
+    cursor: pointer;
+    height: 240px;
+
+}
+
+@media only screen and(max-width:600px){
+    .nav{
+        list-style: none;
+        display: flex;
+        height: 70px;
+        width: 100%;
+        background-color:black;
+    }
+    .nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+}
